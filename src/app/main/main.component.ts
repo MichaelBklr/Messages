@@ -37,3 +37,5 @@ export class MainComponent implements OnInit {
     head.appendChild(script);
   }  
 }
+
+// test for commit 3
