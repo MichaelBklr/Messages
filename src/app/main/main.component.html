@@ -1,0 +1,16 @@
+
+<h2>main</h2>
+<div>
+  <label>User</label>
+  <br>
+  <label>first name: {{ user.name }}</label><br>
+  <label>age: {{ user.age }}</label><br>
+</div>
+<div>
+  Name
+  <input type="text" class="form-control" [(ngModel)]="user.name">
+</div>
+<div id="target">
+    Age
+    <input type="text" [(ngModel)]="user.age">
+  </div>
